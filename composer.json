@@ -1,0 +1,34 @@
+{
+    "name": "florian1987/member",
+    "description": "Member Module for ZF2",
+    "type": "library",
+    "keywords": [
+        "zf2",
+        "florian1987"
+    ],
+    "homepage": "https://github.com/Florian1987/Member.git",
+    "authors": [
+        {
+            "name": "Florian POINTILLART",
+            "email": "florian.pointillart@gmail.com"
+        }
+    ],
+    "extra": {
+        "branch-alias": {
+        }
+    },
+    "require": {
+        "php": ">=5.4",
+        "zendframework/zendframework": "2.3.*"
+    },
+    "suggest": {
+    },
+    "autoload": {
+        "psr-0": {
+            "Florian1987\\Member": "src/"
+        },
+        "classmap": [
+            "./Module.php"
+        ]
+    }
+}
